@@ -4,5 +4,6 @@
     <string name="app_name">ApiDemosGithub</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="menu_settings2">Settings</string>
 
 </resources>
