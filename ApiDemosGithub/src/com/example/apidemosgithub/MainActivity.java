@@ -21,6 +21,13 @@ public class MainActivity extends Activity {
 				MainActivity.this.startActivity(new Intent(MainActivity.this, Activity2.class));
 			}
 		});
+		
+		Button button3 = (Button) findViewById(R.id.button3);
+		button3.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				MainActivity.this.startActivity(new Intent(MainActivity.this, Activity2.class));
+			}
+		});
 	}
 
 	@Override
