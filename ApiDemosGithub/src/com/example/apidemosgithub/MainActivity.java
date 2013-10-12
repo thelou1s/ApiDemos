@@ -10,7 +10,6 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
 
-	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
@@ -24,6 +23,13 @@ public class MainActivity extends Activity {
 		
 		Button button2 = (Button) findViewById(R.id.button2);
 		button2.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				MainActivity.this.startActivity(new Intent(MainActivity.this, Activity2.class));
+			}
+		});
+		
+		Button button3 = (Button) findViewById(R.id.button3);
+		button3.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
 				MainActivity.this.startActivity(new Intent(MainActivity.this, Activity2.class));
 			}
