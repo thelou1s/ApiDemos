@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
 		Button button1 = (Button) findViewById(R.id.button1);
 		button1.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
-				MainActivity.this.startActivity(new Intent(MainActivity.this, Activity2.class));
+				MainActivity.this.startActivity(new Intent(MainActivity.this, Activity1.class));
 			}
 		});
 	}
